@@ -1,0 +1,67 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Hopesoninter" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white_custom</item>
+        <item name="colorPrimaryVariant">@color/white_custom</item>
+        <item name="colorOnPrimary">@color/black_custom</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/white_custom</item>
+        <item name="colorSecondaryVariant">@color/white_custom</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <!-- Customize your theme here. -->
+        <item name="fontFamily">@font/fredoka</item>
+        <item name="android:textColor">?attr/colorOnSecondary</item>
+    </style>
+
+    <style name="LayoutBackground" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:background">@color/blue_custom</item>
+    </style>
+
+    <style name="LineLinearLayout" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:background">@color/grey_lighter_custom</item>
+    </style>
+
+    <style name="TextInputCardView" parent="CardView.Light">
+        <item name="cardBackgroundColor">@color/white_custom</item>
+    </style>
+
+    <style name="TextInputEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@color/white_custom</item>
+    </style>
+
+    <style name="PositiveButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/whiter_custom</item>
+        <item name="rippleColor">@color/grey_custom</item>
+    </style>
+
+    <style name="NegativeButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="rippleColor">@color/grey_custom</item>
+        <item name="android:textColor">@color/red_custom</item>
+    </style>
+
+    <style name="PositiveButton.v2">
+        <item name="backgroundTint">@color/whiter_custom</item>
+    </style>
+
+    <style name="NetworkProgressBar" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:indeterminateTint">@color/black_custom</item>
+    </style>
+
+    <style name="HeaderLinearLayout" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:background">#F4F4F4</item>
+    </style>
+
+    <style name="NavigationViewStyle" parent="Widget.MaterialComponents.NavigationView">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="BottomNavigationViewStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+    </style>
+
+</resources>

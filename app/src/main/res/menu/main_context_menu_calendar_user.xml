@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/grp1">
+        <item
+            android:id="@+id/refresh"
+            android:icon="@drawable/selector_bottom_navigation_home_icon_tint"
+            android:title="@string/refresh" />
+        <item
+            android:id="@+id/help_n_feedback"
+            android:icon="@drawable/selector_bottom_navigation_calendar_icon_tint"
+            android:title="@string/help_amp_feedback" />
+    </group>
+
+    <group android:id="@+id/grp2">
+        <item
+            android:id="@+id/my_account"
+            android:icon="@drawable/selector_bottom_navigation_home_icon_tint"
+            android:title="@string/my_account" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/selector_bottom_navigation_calendar_icon_tint"
+            android:title="@string/logout" />
+    </group>
+
+</menu>
