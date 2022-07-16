@@ -49,7 +49,7 @@ public class CommunitiesRecyclerViewAdapter extends RecyclerView.Adapter<Communi
             String correctedPath = DataParser.javaimpload(choppedPath, "/");
 
             Picasso.get()
-                    .load(URLs.getStorageAddress() + correctedPath)
+                    .load(path)
                     .fit()
                     .centerCrop()
                     .placeholder(R.drawable.ic_waiting)

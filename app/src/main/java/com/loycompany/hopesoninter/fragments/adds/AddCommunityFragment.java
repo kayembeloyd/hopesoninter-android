@@ -213,7 +213,7 @@ public class AddCommunityFragment extends Fragment {
                                                 serverRequestTemp.addParam("position", String.valueOf(i));
                                                 serverRequestTemp.addParam("name", "community_media");
 
-                                                serverRequestTemp.sendRequest(URLs.getApiAddress() +
+                                                serverRequestTemp.sendRequest(URLs.getApiAddress2() +
                                                         "/communities/" + String.valueOf(recentlyPostedCommunityID) + "/media");
                                                 // NEW
 
@@ -264,7 +264,7 @@ public class AddCommunityFragment extends Fragment {
 
                 serverRequest.addParam("name", communityName);
                 serverRequest.addParam("location", location);
-                serverRequest.sendRequest(URLs.getApiAddress() + "/communities", Request.Method.POST);
+                serverRequest.sendRequest(URLs.getApiAddress2() + "/communities", Request.Method.POST);
             }
         });
 

@@ -117,7 +117,7 @@ public class CommunitiesFragment extends Fragment {
         };
 
         serverRequest.addHeaderParam("Accept", "application/json");
-        serverRequest.sendRequest(URLs.getApiAddress() + "/communities", Request.Method.GET);
+        serverRequest.sendRequest(URLs.getApiAddress2() + "/communities", Request.Method.GET);
         progressBar.setVisibility(View.VISIBLE);
 
         return view;
