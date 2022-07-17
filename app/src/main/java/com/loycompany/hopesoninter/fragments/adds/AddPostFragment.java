@@ -204,7 +204,7 @@ public class AddPostFragment extends Fragment {
                                                 serverRequestTemp.addParam("position", String.valueOf(i));
                                                 serverRequestTemp.addParam("name", "post_media");
 
-                                                serverRequestTemp.sendRequest(URLs.getApiAddress() +
+                                                serverRequestTemp.sendRequest(URLs.getApiAddress2() +
                                                         "/posts/" + String.valueOf(recentlyPostedPostID) + "/media");
                                                 // NEW
 
@@ -261,7 +261,7 @@ public class AddPostFragment extends Fragment {
                 serverRequest.addParam("long_description", postDetailedDescription);
                 serverRequest.addParam("community_id", String.valueOf(((AddActivity) requireContext()).getSelectedCommunityID()));
 
-                serverRequest.sendRequest(URLs.getApiAddress() + "/posts", Request.Method.POST);
+                serverRequest.sendRequest(URLs.getApiAddress2() + "/posts", Request.Method.POST);
             }
         });
 

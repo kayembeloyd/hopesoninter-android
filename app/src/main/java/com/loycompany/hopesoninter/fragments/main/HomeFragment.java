@@ -216,7 +216,7 @@ public class HomeFragment extends Fragment {
         };
 
         serverRequest.addHeaderParam("Accept", "application/json");
-        serverRequest.sendRequest(URLs.getApiAddress() + "/posts", Request.Method.GET);
+        serverRequest.sendRequest(URLs.getApiAddress2() + "/posts", Request.Method.GET);
         progressBar.setVisibility(View.VISIBLE);
 
 

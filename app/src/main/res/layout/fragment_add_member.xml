@@ -6,6 +6,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragments.adds.AddMemberFragment">
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/card_view" />
+
     <androidx.cardview.widget.CardView
         android:id="@+id/card_view"
         style="@style/TextInputCardView"
@@ -38,7 +44,7 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center_vertical"
-                android:hint="search members"
+                android:hint="search users"
                 android:inputType="textPersonName"
                 android:textCursorDrawable="@null"
                 android:textSize="18sp"
@@ -47,11 +53,14 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="match_parent"
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/NetworkProgressBar"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/card_view" />
+        android:layout_below="@id/card_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
 
 
 </RelativeLayout>

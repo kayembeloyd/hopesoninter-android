@@ -360,7 +360,7 @@ public class DashboardActivity extends AppCompatActivity {
                 };
 
                 serverRequest.addHeaderParam("Accept", "application/json");
-                serverRequest.sendRequest(URLs.getApiAddress() + "/communities", Request.Method.GET);
+                serverRequest.sendRequest(URLs.getApiAddress2() + "/communities", Request.Method.GET);
                 communityListProgressBarDialog.setVisibility(View.VISIBLE);
             }
         });
