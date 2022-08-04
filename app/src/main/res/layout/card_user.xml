@@ -52,7 +52,41 @@
                 android:text="Erlan Sadewa"
                 android:textSize="18sp" />
 
+            <TextView
+                android:id="@+id/requesting_membership_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Requesting membership for VV Community" />
+
         </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/requesting_membership_options_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/accept_button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Accept request" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Reject"
+            android:textColor="@color/red_custom" />
     </LinearLayout>
 
 </LinearLayout>

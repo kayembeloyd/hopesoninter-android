@@ -49,6 +49,7 @@
         <entry key="..\:/Users/Thiokozani/AndroidStudioProjects/Hopesoninter/app/src/main/res/drawable/track_off.xml" value="0.176" />
         <entry key="..\:/Users/Thiokozani/AndroidStudioProjects/Hopesoninter/app/src/main/res/layout/activity_add.xml" value="0.15198087431693988" />
         <entry key="..\:/Users/Thiokozani/AndroidStudioProjects/Hopesoninter/app/src/main/res/layout/activity_auth.xml" value="0.264" />
+        <entry key="..\:/Users/Thiokozani/AndroidStudioProjects/Hopesoninter/app/src/main/res/layout/activity_community_member_view.xml" value="0.14340277777777777" />
         <entry key="..\:/Users/Thiokozani/AndroidStudioProjects/Hopesoninter/app/src/main/res/layout/activity_dash_board.xml" value="0.1627379873073436" />
         <entry key="..\:/Users/Thiokozani/AndroidStudioProjects/Hopesoninter/app/src/main/res/layout/activity_dash_board_content.xml" value="0.1631912964641886" />
         <entry key="..\:/Users/Thiokozani/AndroidStudioProjects/Hopesoninter/app/src/main/res/layout/activity_dashboard.xml" value="0.1631912964641886" />
@@ -72,7 +73,7 @@
         <entry key="..\:/Users/Thiokozani/AndroidStudioProjects/Hopesoninter/app/src/main/res/layout/card_dashboard_community.xml" value="0.1631912964641886" />
         <entry key="..\:/Users/Thiokozani/AndroidStudioProjects/Hopesoninter/app/src/main/res/layout/card_dashboard_events_event.xml" value="0.125" />
         <entry key="..\:/Users/Thiokozani/AndroidStudioProjects/Hopesoninter/app/src/main/res/layout/card_dashboard_important_contacts_contact.xml" value="0.125" />
-        <entry key="..\:/Users/Thiokozani/AndroidStudioProjects/Hopesoninter/app/src/main/res/layout/card_dashboard_members_member.xml" value="0.12465846994535519" />
+        <entry key="..\:/Users/Thiokozani/AndroidStudioProjects/Hopesoninter/app/src/main/res/layout/card_dashboard_members_member.xml" value="0.1" />
         <entry key="..\:/Users/Thiokozani/AndroidStudioProjects/Hopesoninter/app/src/main/res/layout/card_dashboard_overview_chip.xml" value="0.16500453309156846" />
         <entry key="..\:/Users/Thiokozani/AndroidStudioProjects/Hopesoninter/app/src/main/res/layout/card_dashboard_overview_data.xml" value="0.1631912964641886" />
         <entry key="..\:/Users/Thiokozani/AndroidStudioProjects/Hopesoninter/app/src/main/res/layout/card_dashboard_overview_data_datum.xml" value="0.1631912964641886" />
